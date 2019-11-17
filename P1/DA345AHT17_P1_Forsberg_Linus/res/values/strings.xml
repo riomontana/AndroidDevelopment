@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Incomes and Expenses</string>
+    <string name="lastname">Lastname</string>
+    <string name="firstname">Firstname</string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="add_income">Add Income</string>
+    <string name="show_expenses">Show Expenses</string>
+    <string name="show_incomes">Show Incomes</string>
+    <string name="incomes">Incomes for </string>
+    <string name="choose_dates">Choose Dates</string>
+    <string name="expenses">Expenses for</string>
+    <string name="add_new_income">Add new income</string>
+    <string name="categories">Categories</string>
+    <string name="date">Date</string>
+    <string name="other">Other</string>
+    <string name="price">Price</string>
+    <string name="salary">Salary</string>
+    <string name="title">Title</string>
+    <string name="choose_category">Choose category</string>
+    <string name="add_new_expense">Add new expense</string>
+    <string name="food">Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

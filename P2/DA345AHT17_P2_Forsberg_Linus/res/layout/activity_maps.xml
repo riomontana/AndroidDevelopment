@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.MainActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+        android:id="@+id/btnShowGroups"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/map"
+        android:background="@color/colorPrimary"
+        android:text="@string/show_groups"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAddGroup"
+        android:layout_alignBottom="@id/map"
+        android:layout_alignEnd="@id/map"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="@string/add_group" />
+
+</RelativeLayout>

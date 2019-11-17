@@ -1,0 +1,62 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lfo.p1.DatePickerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDateFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose from date"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <DatePicker
+                android:id="@+id/datePickerBegin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDateTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose to date"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <DatePicker
+                android:id="@+id/datePickerEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSetDateInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Dates" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,142 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lfo.p1.MenuFragment"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <Button
+        android:id="@+id/btnExpenses"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:text="@string/show_expenses"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnIncomes"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddExpenseTransaction" />
+
+    <Button
+        android:id="@+id/btnIncomes"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:text="@string/show_incomes"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddIncome" />
+
+    <Button
+        android:id="@+id/btnAddExpenseTransaction"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:text="@string/add_expense"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddIncome"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:text="@string/add_income"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvWelcomeUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvExpensesAmount"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvExpensesAmount"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="0000000"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDateFrom"
+        app:layout_constraintLeft_toRightOf="@+id/tvIncomesAmount"
+        app:layout_constraintRight_toLeftOf="@+id/tvTotalAmount" />
+
+    <TextView
+        android:id="@+id/tvIncomesAmount"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="0000000"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDateFrom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvExpensesAmount" />
+
+    <TextView
+        android:id="@+id/tvTotalAmount"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="0000000"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvDatesTo"
+        app:layout_constraintLeft_toRightOf="@+id/tvExpensesAmount"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnChooseDates"
+        android:layout_width="172dp"
+        android:layout_height="48dp"
+        android:text="Choose Dates"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExpenses" />
+
+    <TextView
+        android:id="@+id/tvDateFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dates from:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvDatesTo"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnChooseDates" />
+
+    <TextView
+        android:id="@+id/tvDatesTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dates to:"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tvDateFrom"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnChooseDates" />
+
+</android.support.constraint.ConstraintLayout>

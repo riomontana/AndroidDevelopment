@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTransactionDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTransactionTitle"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvTransactionDate"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivTransactionCategory"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/tvTransactionTitle"
+        android:src="@drawable/food" />
+
+    <TextView
+        android:id="@+id/tvTransactionPrice"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvTransactionTitle"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/ivTransactionCategory"
+        android:layout_toRightOf="@+id/ivTransactionCategory"
+        android:textSize="16sp" />
+</RelativeLayout>

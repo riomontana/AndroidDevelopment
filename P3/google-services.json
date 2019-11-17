@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "651406328106",
+    "project_id": "p3weatherapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651406328106:android:56c8d61f384f55c5",
+        "android_client_info": {
+          "package_name": "se.mah.ag7416.p3weather.Activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651406328106-c566g063ne112u7ghg7mm41imq1mn9i4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "651406328106-us1pq2sd2tq97njfsjda393d0v8e1ubp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.mah.ag7416.p3weather.Activities",
+            "certificate_hash": "ea7d5d2914aa7991d7ec1d19632301bbf46ec90c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSMkms8PQqBx1MJRQyrSLPEXgxNq8vPKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651406328106:android:e55bc0a1a9c9795e",
+        "android_client_info": {
+          "package_name": "se.mah.ag7416.p3weather.R"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651406328106-c566g063ne112u7ghg7mm41imq1mn9i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSMkms8PQqBx1MJRQyrSLPEXgxNq8vPKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651406328106:android:e690cc87b1585901",
+        "android_client_info": {
+          "package_name": "se.mah.ag7416.p3weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651406328106-uak4aot64e5r0ncamf91284vhk2vu9nn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.mah.ag7416.p3weather",
+            "certificate_hash": "ea7d5d2914aa7991d7ec1d19632301bbf46ec90c"
+          }
+        },
+        {
+          "client_id": "651406328106-c566g063ne112u7ghg7mm41imq1mn9i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSMkms8PQqBx1MJRQyrSLPEXgxNq8vPKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Laboration3a</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tvColor">TextView med färg</string>
+    <string name="stringRed">RÖD</string>
+    <string name="stringBlue">BLUE</string>
+    <string name="stringYellow">GUL</string>
+    <string name="stringGreen">GRÖN</string>
+</resources>
